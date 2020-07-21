@@ -150,7 +150,7 @@
         attribution.addAttribution('<a onclick="showSources()">Sources</a> | <a onclick="showDisclaimer()">Disclaimer</a>');
 
         var sourcesText = document.getElementById("sourcesText");
-        sourcesText.innerHTML = `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap </a> contributors, <a href="https://ec.europa.eu/eurostat/en/web/gisco" title="Eurostat - GISCO" target="_blank"> Eurostat - GISCO</a>` + sourcesText.innerHTML;
+        sourcesText.innerHTML = `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors </a> <a href="https://ec.europa.eu/eurostat/en/web/gisco" title="Eurostat - GISCO" target="_blank">, Eurostat - GISCO</a>` + sourcesText.innerHTML;
         // add button click event
         window.showDisclaimer = function () {
           var popup = document.getElementById("disclaimerText");
