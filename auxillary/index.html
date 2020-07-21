@@ -54,7 +54,7 @@
     let footprintColor = "blue";
     let hoverColor = "yellow";
     let request = new XMLHttpRequest();
-    request.open("GET", "../assets/json/Aux_info.json", true);
+    request.open("GET", "https://raw.githubusercontent.com/eurostat/Copernicus-DEM-viewer/master/assets/json/Aux_info.json", true);
 
     request.onload = () => {
       if (request.status >= 200 && request.status < 400) {
