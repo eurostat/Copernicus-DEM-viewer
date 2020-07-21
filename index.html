@@ -55,7 +55,7 @@
     let hoverColor = "yellow";
     //get grid
     let request = new XMLHttpRequest();
-    request.open("GET", ".assets/json/raster_grid.json", true);
+    request.open("GET", "./assets/json/raster_grid.json", true);
 
     request.onload = () => {
       if (request.status >= 200 && request.status < 400) {
