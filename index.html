@@ -77,7 +77,7 @@
         let defaultRadius = 2000; //metres
 
         let map = L.map("map", {
-          center: L.latLng(5, 0),
+          center: L.latLng(42, 5),
           minZoom: 1,
           maxZoom: 4,
           zoom: 2,
@@ -87,6 +87,8 @@
            crs: L.CRS.EPSG4326,
           attributionControl: false,
         });
+
+        map.fitWorld();
 
         var myStyle = {
           color: "#ff7800",
